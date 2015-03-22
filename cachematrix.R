@@ -29,11 +29,11 @@ makeCacheMatrix <- function(x = matrix()) {
     getinv <- function() inv
     list(set=set, get=get, setinv=setinv, getinv=getinv)
 	# This list provides four functions:
-	# x <- makeCacheMatrix(matrix)
-    # x$set(newmatrix) # to change the matrix
-    # x$get # to retrieve the matrix
-    # x$setInv # to set the inverse of the matrix
-    # x$getInv # to get the inverse of the matrix
+	# x <- makeCacheMatrix(matrix) # initialize with a matrix, e.g. matrix <- matrix(1,4,4)
+	# x$set(newmatrix)             # to change the matrix
+	# x$get                        # to retrieve the matrix
+	# x$setInv                     # to set the inverse of the matrix
+	# x$getInv                     # to get the inverse of the matrix
 
 }
 
